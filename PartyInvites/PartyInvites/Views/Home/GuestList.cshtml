@@ -1,0 +1,46 @@
+@model IEnumerable<GuestResponse>
+
+@{
+    ViewData["Title"] = "GuestList";
+}
+
+<h2>Guest List</h2>
+
+@if (Model.Count() == 0) {
+    <p>Nobody has yet confirm that s/he will come to the party. 
+    Be the first to do that and I will offer you a special drink.</p>
+} else {
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Will attend</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model) {
+                <tr>
+                    <td>@r.Name</td>
+                    <td>@r.Phone</td>
+                    <td>@r.Email</td>
+                    <td>
+                        @if (r.WillAttend == true) {
+                            @: Yes
+                        } else if (r.WillAttend == false) {
+                            @: No
+                        } else {
+                            @: Don't know
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<hr />
+
+<p>Are you coming to the party?</p>
+<a asp-action="Rsvp" class="btn btn-primary">Submit answer</a>

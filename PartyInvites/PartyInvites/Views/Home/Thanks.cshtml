@@ -1,0 +1,25 @@
+@model GuestResponse
+
+@{
+    ViewData["Title"] = "Thanks";
+}
+
+<div class="panel panel-success" style="margin-top:2ex;">
+    <div class="panel-heading">
+        <h3 class="panel-title">Thank you, @Model.Name !!!</h3>
+    </div>
+
+    <div class="panel-body">
+        @if (Model.WillAttend == null) {
+            @: Thank you for your answer. When you decide if you can come to the party, give me a call.
+        } else if (Model.WillAttend == true) {
+            @: It's great that you are coming to the party. The drinks are already in the fridge.
+        } else { // Model.WillAttend == false
+            @: Sorry to hear that you can't make it, but tanks for letting us know.
+        }
+    </div>
+
+    <div class="panel-footer">
+        <a asp-action="GuestList" class="btn btn-primary">See who is coming to the party</a>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+C:\programacao_internet\PartyInvites\PartyInvites\bin\Debug\netcoreapp1.1\PartyInvites.deps.json
+C:\programacao_internet\PartyInvites\PartyInvites\bin\Debug\netcoreapp1.1\PartyInvites.runtimeconfig.json
+C:\programacao_internet\PartyInvites\PartyInvites\bin\Debug\netcoreapp1.1\PartyInvites.runtimeconfig.dev.json
+C:\programacao_internet\PartyInvites\PartyInvites\bin\Debug\netcoreapp1.1\PartyInvites.dll
+C:\programacao_internet\PartyInvites\PartyInvites\bin\Debug\netcoreapp1.1\PartyInvites.pdb
+C:\programacao_internet\PartyInvites\PartyInvites\obj\Debug\netcoreapp1.1\PartyInvites.csprojResolveAssemblyReference.cache
+C:\programacao_internet\PartyInvites\PartyInvites\obj\Debug\netcoreapp1.1\PartyInvites.csproj.CoreCompileInputs.cache
+C:\programacao_internet\PartyInvites\PartyInvites\obj\Debug\netcoreapp1.1\PartyInvites.AssemblyInfo.cs
+C:\programacao_internet\PartyInvites\PartyInvites\obj\Debug\netcoreapp1.1\PartyInvites.dll
+C:\programacao_internet\PartyInvites\PartyInvites\obj\Debug\netcoreapp1.1\PartyInvites.pdb
